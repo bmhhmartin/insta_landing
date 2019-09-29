@@ -1,0 +1,269 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  .submited.p-submit {
+		font-size: 10pt;
+	}
+	.text-profit {
+		left: 0%;
+	}
+	.footer-text p {
+		font-size: 12pt;
+	}
+	.form-area {;
+		padding: 50px 45px;
+		width: 40%;
+	}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+	.left-header-text h2 {
+		font-size: 21pt;
+		margin-top: 20%;
+	}
+	.ber-area::after {
+		top: -5px;
+	}
+	.left-header-text p {
+		font-size: 14pt;
+	}
+	.form-area {
+		padding: 30px 30px;
+		text-align: center;
+	}
+	.form-area p {
+		font-size: 12pt;
+	}
+	.form-area h4 {
+		font-size: 20pt;
+		margin-bottom: 10px;
+	}
+	.submited {
+		padding: 12px 50px;
+		font-size: 15pt;
+		margin: 58px auto 15px;
+	}
+	.text-bottom-header p {
+		font-size: 12pt;
+	}
+	.text-about h2 {
+		font-size: 28pt;
+		padding: 0 0 36px;
+	}
+	.text-about p {
+		font-size: 11pt;
+	}
+	.icon-box h2 {
+		font-size: 12pt;
+	}
+	.icon-box p {
+		font-size: 8pt;
+	}
+	.submited.p-submit {
+		font-size: 8pt;
+	}
+	.text-profit {
+		left: 0;
+	}
+	.text-profit h3 {
+		font-size: 16pt;
+	}
+	.text-profit h2 {
+		font-size: 23pt;
+	}
+	.text-profit p {
+		font-size: 9pt;
+	}
+	.style-heading-text {
+		font-size: 15pt;
+	}
+	.first-box img {
+		min-height: 510px;
+	}
+	.p-top {
+		font-size: 20pt;
+	}
+	.text-box1 h2 {
+		font-size: 17pt;
+	}
+	.text-box1 p {
+		font-size: 9pt;
+	}
+	.text-icon-heading h2 {
+		font-size: 19pt;
+	}
+	.text-icon-heading {
+		padding: 0 0 0px;
+	}
+	.footer-text p {
+		font-size: 9pt;
+	}
+	.menu-link ul li a {
+		font-size: 9pt;
+	}
+	.form-area {
+		width: 45%;
+	}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+	.left-header-text h2 {
+		font-size: 28pt;
+		margin: 1% 0 10%;
+	}
+	.ber-area::after {
+		top: -20px;
+	}
+	.left-header-text p {
+		font-size: 12pt;
+		margin-bottom: 4%;
+	}
+	
+	.form-area p {
+		font-size: 14pt;
+	}
+	.text-about h2 {
+		font-size: 18pt;
+		padding: 0px 0 40px;
+	}
+	.text-about p {
+		font-size: 12pt;
+	}
+	.icon-box {
+		margin-bottom: 10%;
+	}
+	.profit-heading h2 {
+		font-size: 12pt;
+	}
+	.text-profit {
+		left: 23%;
+	}
+	.submited.p-submit {
+		padding: 12px 40px;
+		font-size: 20pt;
+		margin-top: 15%;
+	}
+	.text-profit {
+		left: 8%;
+		top: 52%;
+	}
+	.style-heading-text {
+		font-size: 25pt;
+		padding: 10% 0 0;
+	}
+	.text-profit p {
+		font-size: 20pt;
+	}
+	.box-1 img {
+		width: 16%;
+		margin: 7% 0;
+	}
+	.box-1 {
+		width: 100%;
+		float: none;
+	}
+	.text-box1 {
+		width: 100%;
+		text-align: center;
+	}
+	.text-icon-heading h2 {
+		font-size: 16pt;
+		line-height: 1.4;
+	}
+	.footer-text p {
+		font-size: 8pt;
+	}
+	.rsp {
+		display: none !important;
+	}
+	.logo-area img {
+		width: 100%;
+	}
+	.text-icon-heading {
+		 padding: 0px 0 0px;
+	}
+	.all-check {
+		font-size: 11px;
+	}
+	.ber img {
+		width: 100%;
+	}
+	.main-form {
+		display:none;
+	}
+	.button-text {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		z-index: 1;
+		background: #5da715;
+		width: 100%;
+		text-align: center;
+	}
+	.button-text {
+		display: block;
+	}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 320px) and (max-width: 480px) { 
+	.left-header-text h2 {
+		font-size: 17pt;
+	}
+	.ber-area::after {
+		top: -5px;
+	}
+	.submited {
+		padding: 12px 14px;
+		font-size: 13pt;
+	}
+	.text-profit p {
+		font-size: 10pt;
+	}
+	.text-profit h2 {
+		font-size: 20pt;
+	}
+	.submited.p-submit {
+		padding: 12px 20px;
+		font-size: 8pt;
+	}
+	.text-profit {
+		left: 20%;
+	}
+	.main-form {
+		padding: 50px 20px;
+		display: none;
+	}
+	.form-area {
+		padding: 50px 20px;
+	}
+	.text-bottom-header p {
+		font-size: 10pt;
+	}
+	.p-top {
+		padding: 0px 0;
+	}
+	.form-area p {
+		font-size: 11pt;
+	}
+	.logo-footer img {
+		width: 100%;
+	}
+	.modal-content.new-design {
+		width: 100%;
+	}
+	.modal-backdrop {
+		z-index: 0;
+	}
+	.button-text {
+		display: block;
+	}
+}
+@media only screen and (min-width: 320px) and (max-width: 360px) { 
+	.text-profit {
+		left: 15%;
+	}
+}
+@media only screen and (min-width: 600px) and (max-width: 767px) { 
+	.text-profit {
+		left: 25%;;
+	}
+}

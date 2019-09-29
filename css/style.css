@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+img{
+    border: 0px;
+}
+h1,h2,h3,h4,h5,h6,ol,ul,p,address{
+    margin-top: 0px;
+    margin-bottom: 0px;
+} 
+@font-face{
+    font-family: helvetica;
+    src:url(../fonts/HelveticaLTStd-Roman.otf);
+} 
+body{
+	font-family: helvetica;
+}
+/* Header area start */
+
+.header-area {
+    background-image: url(../img/header-bg.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+	position:relative;
+}
+.logo-area {
+	padding: 35px 0;
+}
+.logo-area img {
+	width: 43%;
+	height: auto;
+}
+.left-header-text h2 {
+	font-size: 40pt;
+	color: #fff;
+	margin: 16% 0 10%;
+}
+.left-header-text p {
+	color: #fff;
+	font-size: 16pt;
+}
+.ber-area {
+	position:relative;
+}
+.ber img {
+	width: 56%;
+	height: auto;
+	margin: 0 auto;
+}
+.ber-area::after {
+	position: absolute;
+	left: 0;
+	top: -31px;
+	width: 165px;
+	height: 3px;
+	background: red;
+	content: "";
+}
+.text-bottom-header p {
+	text-align: center;
+	color: #fff;
+	padding: 12% 0 2%;
+	font-size: 14pt;
+}
+
+/* for modal */
+.form-area.moduil {
+	position: inherit;
+	width: 100%;
+	min-height: 70vh;
+}
+.modal-content.new-design {
+	width: 80%;
+	margin: 0 auto;
+}
+.btn.btn-primary.btn-custom {
+	background: #5da715;
+	border: none;
+	padding: 10px 35px;
+}
+.button-text {
+	display: none;
+}
+
+
+.form-area {
+    background-color: #fff;
+    padding: 50px 60px;
+    text-align: center;
+    width: 25%;
+    min-height: 100vh;
+    position: absolute;
+    right:0;
+    top: 0;
+}
+.form-area h4 {
+  font-size: 24pt;
+  margin-bottom: 20px;
+  color: #333333;
+  text-align: left;
+}
+.form-area p {
+  font-size: 15pt;
+  color: #333333;
+  text-align: left;
+}
+.common-border {
+	border: none;
+	float: left;
+	width: 45%;
+	border-bottom: 1px solid #aaaaaa;
+	color: #aaaaaa;
+    padding: 0px 0 7px;	
+}
+.f-name{
+	float:left;
+}
+.l-name{
+	float:right;
+}
+.emailarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #aaaaaa;
+  padding: 22px 0 7px;
+}
+.number {
+	padding: 35px 0 7px;
+}
+.number-t {
+	border: none;
+	border-bottom: 1px solid #aaaaaa;
+	width: 70%;
+	float: right;
+	padding: 0 7px !important;
+}
+.option-style {
+	width: 20%;
+	float: left;
+	color: #aaaaaa;
+}
+.submited {
+	border: 1px solid #5da715;
+	background: #5da715;
+	padding: 12px 52px;
+	color: #fff;
+	font-size: 18pt;
+	box-shadow: -1px 3px 7px #000;
+	border-radius: 4px;
+	display: block;
+	margin: 0 auto;
+	margin: 70px auto 15px;
+}
+.form-area input {
+	margin-top: 20px;
+	padding: 5px 7px;
+	background: none;
+	color: #aaaaaa;
+}
+.number-t {
+	margin: 0 !important;
+}
+
+.clr {
+  color: #ed1c24;
+}
+.all-check {
+  margin-left: 10px;
+}
+
+/* header area end */
+/* about area start */
+.about-area{
+	background-image: url(../img/about.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+	position:relative;
+	text-align:center;
+	padding: 60px 0;
+}
+
+.text-about p {
+  color: #666666;
+  font-size: 16pt;
+}
+.text-about h2 {
+  color: #fff;
+  font-size: 36pt;
+  padding: 60px 0;
+}
+.text-about p:last-child {
+	margin-top: 25px;
+}
+.icon-box h2 {
+  font-size: 20pt;
+  margin: 22px 0 7px;
+}
+.icon-box {
+  color: #fff;
+  text-align: center;
+}
+.icon-box p {
+  font-size: 13pt;
+}
+.boxs {
+	margin: 80px 0;
+}
+.icon-box img {
+	width: 25%;
+	height: auto;
+}
+
+/* profit area */
+
+.prfit {
+  text-align: center;
+  color: #fff;
+  padding: 70px 0;
+  position:relative
+}
+.profit-heading h2 {
+  padding-bottom: 60px;
+}
+.first-box img {
+  width: 100%;
+  min-height: 603px;
+}
+.submited.p-submit {
+	padding: 12px 18px;
+	font-size: 14pt;
+	margin-top: 10%;
+}
+.text-profit h3 {
+  font-weight: bold;
+  font-size: 24pt;
+}
+.text-profit h2 {
+  font-size: 30pt;
+  padding: 20px 0;
+}
+.text-profit p {
+	font-size: 12pt;
+	padding: 0px 18px;
+}
+.style-pr {
+	color: #666666;
+	letter-spacing: 2px;
+}
+.text-style {
+	color: #fff;
+	border-bottom: 2px solid #ed1d24;
+}
+.style-heading-text {
+	font-size: 18pt;
+	color: #7bd622;
+	padding: 20px 0 0;
+}
+.text-profit {
+	position: absolute;
+	top: 47%;
+	left: 6.5%;
+}
+
+/* carousel start */
+.area-carosel h5 {
+	padding: 0 0 35px;
+	color: #fff;
+	font-size:16pt;
+}
+.owl-nav .owl-prev {
+	position: absolute;
+	left: -40px;
+	top: 13px;
+	color:#ed1c24 !important;
+}
+.owl-nav .owl-next {
+	position: absolute;
+	right: -40px;
+	top: 13px;
+	color:#ed1c24 !important;
+}
+.owl-nav i{
+	font-size:22px;
+}
+
+/* carousel end here */
+
+/* icons-area start */
+.icons-all{
+	background-image: url(../img/bg2.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+	position:relative;
+	text-align:center;
+	padding: 25px 0 0px;
+	color: #fff;
+}
+
+
+/* all-box area */
+
+.main-box {
+  width: 100%;
+}
+.box-1 img {
+  width: 100%;
+}
+.box-1 {
+  width: 17%;
+  float: left;
+}
+.text-box1 {
+  width: 78%;
+  float: right;
+  text-align: left;
+}
+.text-box1 p {
+  font-size: 14pt;
+}
+.p-top {
+	padding: 80px 0;
+}
+.another-box {
+	padding: 60px 0px;
+}
+.text-icon-heading {
+	padding: 80px 0 0px;
+}
+.text-icon-heading h2 {
+	font-size: 30pt;
+}
+.text-screen img {
+	width: 100%;
+	height: auto;
+	margin-top: 40px;
+}
+/* footer area start */
+.footer-area {
+	background-color: #402415;
+	text-align: center;
+	color: #fff;
+	padding: 50px 0;
+}
+.logo-footer img {
+	width: 20%;
+	margin-bottom: 2%;
+}
+.color-tesst {
+	margin: 15px 0;
+}
+
+.menu-link ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.menu-link ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.menu-link ul li a {
+	color: #fff;
+	font-size: 14pt;
+	text-decoration: none;
+	border-bottom: 1px dotted #fff;
+}
+.footer-text p {
+	font-size: 14pt;
+	color: #ad8268;
+}
+.logo-footer {
+	border-bottom: 1px solid #fff;
+	margin-bottom: 5%;
+}
